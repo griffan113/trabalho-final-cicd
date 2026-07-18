@@ -4,9 +4,13 @@
 
 **Blocked by:** 04 — Build the verified team roster page.
 
-**Status:** ready-for-agent
+**Status:** resolved
 
-- [ ] Pull requests targeting `main` run with Node.js 24 LTS and install dependencies reproducibly.
-- [ ] The visible test stage runs linting, formatting validation, unit tests, and the HTTP-level public-page test.
-- [ ] The visible build stage runs only after the test stage succeeds and produces the production-ready application output.
-- [ ] A workflow failure clearly prevents a pull request from reaching a successful validation state.
+- [x] Pull requests targeting `main` run with Node.js 24 LTS and install dependencies reproducibly.
+- [x] The visible test stage runs linting, formatting validation, unit tests, and the HTTP-level public-page test.
+- [x] The visible build stage runs only after the test stage succeeds and produces the production-ready application output.
+- [x] A workflow failure clearly prevents a pull request from reaching a successful validation state.
+
+## Answer
+
+Added the `CI/CD` workflow. Pull requests to `main` run the ordered `Test` and `Build` jobs using `npm ci` and Node.js 24.

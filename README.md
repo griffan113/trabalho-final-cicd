@@ -25,7 +25,7 @@ A aplicação disponibiliza uma única página pública renderizada no servidor.
 
 ## Execução local
 
-Após a implementação da aplicação, utilize Node.js 24 LTS e execute:
+Utilize Node.js 24 LTS e execute:
 
 ```bash
 npm ci
