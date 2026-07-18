@@ -2,6 +2,12 @@
 
 Aplicação web mínima desenvolvida para o trabalho final da disciplina de CI/CD do MBA. O objetivo é demonstrar uma aplicação NestJS MVC com front-end, práticas básicas de qualidade e um pipeline de entrega contínua para o Azure App Service.
 
+## Evidências de Entrega
+
+![evdc1](./docs/evidences/evdc1.png)
+![evdc2](./docs/evidences/evdc2.png)
+![evdc3](./docs/evidences/evdc3.png)
+
 ## Funcionalidade
 
 A aplicação disponibiliza uma única página pública renderizada no servidor. A página apresenta o título abaixo e a lista dos integrantes do grupo.
