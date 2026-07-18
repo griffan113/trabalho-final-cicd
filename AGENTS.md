@@ -29,3 +29,17 @@ This repository contains the MBA CI/CD final project: a deliberately minimal Nes
 
 - Keep `README.md` in Brazilian Portuguese and update it when local commands, pipeline behavior, or deployment prerequisites change.
 - Implementation decisions and planned work live under `.scratch/cicd-final-project/`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specifications are tracked as local Markdown files under `.scratch/`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Use the five default canonical triage labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This is a single-context repository using `CONTEXT.md` and `docs/adr/`. See `docs/agents/domain.md`.
